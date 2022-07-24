@@ -1,4 +1,4 @@
-const Potion = require('../lib/Potion.js')
+const Potion = require('../lib/__mocks__/Potion.js')
 
 test('creat a random potion object', () => {
     const potion = new Potion();
